@@ -4,33 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <script defer src="../app.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <main>
         <!-- Section about me, people will see this first make it sick as fuck-->
-         <section id="intro">
+         <section id="intro" class="hidden">
             <h1>Hi, I'm Colin</h1>
             <p>I am a Web/Software Developer from Harrisonburg, VA</p>
+            <div class ="logos">
+                <div class ="logo hidden">
+                    <a href="https://www.linkedin.com/in/cljgreg/">
+                        <img src="../../public/images/linkedin.png" alt="link to linkedin profile">
+                    </a>
+                </div>
+                <div class ="logo hidden">
+                    <a href="https://github.com/cljgregory">
+                        <img src="../../public/images/github.png" alt="link to github profile">
+                    </a>
+                </div>
+                <div class ="logo hidden">
+                    <a href="https://x.com/cljgreg">
+                        <img src="../../public/images/x.png" alt="link to X/Twitter profile">
+                    </a>
+                </div>
+
+            </div>
          </section>
         
          <!-- Section about what i know? like languages and such -->
-        <section id="about">
+        <section class="hidden">
             <h1>About me?</h1>
             <p>Some shit here</p>
         </section>
 
         <!-- Section about projects-->
-         <section id="projects">
+         <section class="hidden">
             <h1>Projects</h1>
             <p>List your stuff here</p>
          </section>
